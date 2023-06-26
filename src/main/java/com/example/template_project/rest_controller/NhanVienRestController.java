@@ -14,6 +14,7 @@ import java.util.List;
 
 @RequestMapping("/nhan-vien")
 @RestController
+@CrossOrigin(origins = "*",maxAge = -1)
 public class NhanVienRestController {
 
     @Autowired
