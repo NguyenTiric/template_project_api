@@ -17,5 +17,6 @@ public class NhanVienController {
     @Autowired
     NhanVienService nhanVienService;
 
+    // list nhan vien
     List<NhanVienResponse> nhanVienResponseList;
 }
